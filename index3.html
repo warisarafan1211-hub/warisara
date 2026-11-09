@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Website | การสร้างเว็บไซต์ด้วย AI</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0e1635;
+    color: #e8edff;
+    line-height: 1.8;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+nav {
+    background: #19244e;
+    text-align: center;
+    padding: 16px;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #384b9b;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: #00d9ff;
+    color: #101735;
+    box-shadow: 0 0 20px #00d9ff;
+}
+nav a.active {
+    background: #00d9ff;
+    color: #101735;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+h1, h2 {
+    text-align: center;
+    color: #69eaff;
+}
+.card {
+    background: #19244e;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 20px #0004;
+}
+.card h3 { color: #69eaff; }
+.example {
+    background: #0e1635;
+    padding: 20px;
+    border-radius: 10px;
+    color: #69eaff;
+    overflow-x: auto;
+}
+.btn {
+    display: inline-block;
+    background: #384b9b;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #00d9ff;
+    color: #101735;
+}
+footer {
+    background: #19244e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="banner">
+    <img src="banner.png" alt="แบนเนอร์ AI">
+</header>
+
+<nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="index2.html">ความรู้เกี่ยวกับ AI</a>
+    <a href="index3.html" class="active">การสร้างเว็บไซต์ด้วย AI</a>
+</nav>
+
+<main class="container">
+
+    <h1>การสร้างเว็บไซต์ด้วย AI</h1>
+    <h2>เรียนรู้การสร้างเว็บไซต์อย่างง่าย</h2>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 1 วางแผนเว็บไซต์</h3>
+        <p>
+            กำหนดหัวข้อ จุดประสงค์ กลุ่มเป้าหมาย
+            และเนื้อหาที่ต้องการนำเสนอ
+            รวมถึงเลือกโทนสีของเว็บไซต์
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 2 ใช้ AI ช่วยเขียนโค้ด</h3>
+        <p>
+            เปิด ChatGPT แล้วพิมพ์คำสั่ง เช่น
+            "ช่วยสร้างเว็บไซต์แนะนำ AI ด้วย HTML
+            และ CSS โทนสีน้ำเงิน มีเมนู 3 หน้า"
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 3 สร้างเว็บไซต์ใน Notepad</h3>
+        <p>
+            1. เปิดโปรแกรม Notepad<br>
+            2. คัดลอกโค้ด HTML จาก AI<br>
+            3. วางโค้ดลงใน Notepad<br>
+            4. เลือก File > Save As<br>
+            5. ตั้งชื่อไฟล์ index1.html<br>
+            6. เลือก Save as type: All Files<br>
+            7. เลือก Encoding: UTF-8<br>
+            8. กด Save
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 4 การใส่รูปภาพ</h3>
+        <p>
+            นำรูปภาพชื่อ banner.png
+            มาเก็บในโฟลเดอร์เดียวกับไฟล์ HTML
+            แล้วใช้คำสั่งแสดงรูปภาพดังนี้
+        </p>
+
+        <pre class="example">&lt;img src="banner.png"
+alt="แบนเนอร์เว็บไซต์"
+width="100%"&gt;</pre>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 5 การเชื่อมลิงก์</h3>
+        <p>
+            ใช้คำสั่ง a href เพื่อเชื่อมโยง
+            ไปยังหน้าเว็บไซต์ต่าง ๆ
+        </p>
+
+        <pre class="example">&lt;a href="index1.html"&gt;หน้าแรก&lt;/a&gt;</pre>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 6 การตกแต่งด้วย CSS</h3>
+        <p>
+            ใช้ CSS กำหนดสีพื้นหลัง
+            รูปแบบตัวอักษร และสีของเมนู
+            เมื่อชี้เมาส์
+        </p>
+
+        <pre class="example">nav a:hover {
+    background: #00d9ff;
+    color: #101735;
+}</pre>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 7 ทดสอบเว็บไซต์</h3>
+        <p>
+            เปิดไฟล์ index1.html ด้วย Google Chrome
+            ทดลองคลิกเมนูทั้ง 3 หน้า
+            และตรวจสอบว่ารูปภาพแสดงถูกต้อง
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>ขั้นตอนที่ 8 เผยแพร่เว็บไซต์</h3>
+        <p>
+            อัปโหลดไฟล์ HTML และรูปภาพไปยัง
+            GitHub Repository จากนั้นใช้
+            GitHub Pages เพื่อเผยแพร่เว็บไซต์
+            โดยใช้ไฟล์ index.html เป็นหน้าเริ่มต้น
+        </p>
+    </div>
+
+    <a href="index2.html" class="btn">หน้าก่อนหน้า</a>
+    <a href="index1.html" class="btn">กลับหน้าแรก</a>
+
+</main>
+
+<footer>
+    <p>การประยุกต์ใช้ AI ในการสร้างเว็บไซต์</p>
+    <p>จัดทำขึ้นเพื่อการศึกษา</p>
+</footer>
+
+</body>
+</html>
+
